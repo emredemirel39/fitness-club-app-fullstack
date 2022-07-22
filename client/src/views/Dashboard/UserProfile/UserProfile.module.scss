@@ -1,0 +1,31 @@
+.infoWrapper{
+    @apply flex flex-col gap-6 h-full justify-center
+}
+
+.inputWrapper{
+     @apply flex flex-col gap-6 lg:flex-row lg:gap-44 lg:w-full lg:justify-around
+}
+
+.inputBox{
+    @apply flex flex-col gap-1 w-fit
+}
+
+.inputLabel{
+    @apply text-gray-400 text-base 
+}
+
+.input{
+    @apply border-gray-300 border-solid border-2 p-2 outline-0 cursor-default
+}
+
+.inputActive {
+    @apply  bg-cyan-50 focus:bg-teal-100 outline-1 cursor-text
+}
+
+.btnBox{
+    @apply flex flex-col gap-10 w-full items-center lg:flex-row lg:justify-center lg:gap-56
+}
+
+.btn{
+    @apply px-3 py-2 text-white
+}

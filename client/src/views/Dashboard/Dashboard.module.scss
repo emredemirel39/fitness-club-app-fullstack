@@ -1,0 +1,39 @@
+.header{
+    @apply w-full bg-cyan-900 shadow-md
+}
+
+.headerWrapper{
+    @apply flex justify-between items-center p-2
+}
+
+.main{
+    @apply flex flex-nowrap gap-2 w-screen h-full text-xl
+}
+
+.sideMenu{
+    @apply p-2 h-full bg-cyan-800 text-white flex justify-center pt-6
+}
+
+.sideMenuActive{
+    @apply w-full lg:w-96
+}
+
+.sideMenuDeactive{
+    @apply hidden lg:flex lg:w-32
+}
+
+.sideMenuLinks {
+    @apply flex items-center justify-start gap-10
+}
+
+.bodySection{
+    @apply p-2 h-full
+}
+
+.bodySectionMenuActive {
+    @apply hidden invisible lg:block lg:visible lg:w-full
+}
+
+.bodySectionMenuDeactive{
+    @apply block visible w-full
+}

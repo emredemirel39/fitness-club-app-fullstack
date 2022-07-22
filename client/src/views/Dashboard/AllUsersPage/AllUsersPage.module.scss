@@ -1,0 +1,15 @@
+.filterBtnsBox {
+    @apply w-full flex flex-wrap justify-center gap-6 lg:gap-0 lg:flex-row lg:justify-around mt-5 mb-5
+}
+
+.filterBtns {
+    @apply bg-cyan-900 hover:bg-teal-700 text-white w-28 lg:w-28 py-0.5
+}
+
+.filteredUserContainer {
+    @apply w-full max-w-full h-full overflow-y-auto flex justify-center flex-wrap gap-8 px-7 py-4
+}
+
+.userBox{
+    @apply flex flex-col justify-center items-center text-left gap-5 w-64 h-fit cursor-pointer shadow shadow-cyan-900 hover:shadow-md hover:shadow-cyan-700 py-8
+}
