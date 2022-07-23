@@ -1,5 +1,5 @@
 .header{
-    @apply w-full bg-cyan-900 shadow-md
+    @apply w-screen max-w-full bg-cyan-900 shadow-md
 }
 
 .headerWrapper{
@@ -7,7 +7,7 @@
 }
 
 .main{
-    @apply flex flex-nowrap gap-2 w-screen h-full text-xl
+    @apply flex flex-nowrap gap-2 w-full h-full text-xl
 }
 
 .sideMenu{
@@ -27,7 +27,7 @@
 }
 
 .bodySection{
-    @apply p-2 h-full
+    @apply p-2 h-full w-full
 }
 
 .bodySectionMenuActive {

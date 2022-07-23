@@ -13,7 +13,7 @@ import AddNewUserPage from './views/Dashboard/AddNewUserPage';
 
 function App() {
   return (
-    <div className="App m-w-screen h-screen">
+    <div className="App m-w-full w-screen h-screen">
         <Routes>
           <Route index element={<Home/>} />
           <Route path='/login' element={<LoginPage/>} />

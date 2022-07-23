@@ -41,15 +41,13 @@ const Home = () => {
           <Header/>
         <main className='bg-[#1d0e15]' >
 
-          <div id='hero' className={`bg-[url('../assets/images/home-bg.jpg')] bg-center bg-cover bg-fixed flex flex-col w-full items-center}`}>
-            <div className=" flex flex-col lg:flex-row justify-center items-center gap-8 h-screen">
+            <div id='hero' className={`bg-[url('../assets/images/home-bg.jpg')] bg-center bg-cover bg-fixed flex flex-col w-full items-center gap-8 h-screen}`}>
                 <img src={heroContentImg} alt="hero" />
                 <div className='flex flex-col gap-4 items-center'>
                   <h4 className='text-orange-600'>back to the sport</h4>
                   <h4 className='text-white text-2xl' >START YOUR SPORT JOURNEY</h4>
                 </div>
             </div>
-          </div>
 
           <div id='about' className='flex flex-col gap-6 px-4 py-6 lg:flex-row-reverse lg:justify-center'>
             <img className='object-contain ' src={aboutContentImg} alt="about" />
