@@ -34,8 +34,8 @@ Nodejs, Express, Mongo, JWT, Bcrypt and Cors
 
 There are 2 main routes in the project:
 
-1-) A simple landing page.
-2-) An admin panel where only members, trainers and administrators can login.
+1. A simple landing page.
+2. An admin panel where only members, trainers and administrators can login.
 
 2 API endpoints in the project, users and events.
 
