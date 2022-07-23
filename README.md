@@ -1,6 +1,6 @@
 # fitness-club-app-fullstack
 
-MongoDb must be installed to run this application.
+MongoDb must be installed on your device to run this application.
 
 ## Client
 
